@@ -83,6 +83,14 @@ body {
     padding: 16px;
 }
 
+footer{
+    background-color: #2F3C7E;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    max-width: 100%;
+}
+
 /* Timeline CSS. Reference: https://www.csscodelab.com/simple-horizontal-timeline-html-css/ */
 
 .timeline {
