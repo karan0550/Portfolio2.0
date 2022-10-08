@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/KSPortfolio2.0.iml" filepath="$PROJECT_DIR$/.idea/KSPortfolio2.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../KSPortfolio2.1/.idea/KSPortfolio2.1.iml" filepath="$PROJECT_DIR$/../KSPortfolio2.1/.idea/KSPortfolio2.1.iml" />
     </modules>
   </component>
 </project>

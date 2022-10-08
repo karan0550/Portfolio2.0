@@ -2,6 +2,8 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/ac65beec67.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="main.css">
     <script src="main.js"></script>
@@ -25,64 +27,125 @@
     </div>
 </div>
 
-<div id="main">
+<div id="container-fluid">
 
     <button class="openbtn" onclick="openNav()"><i class="fa-solid fa-bars"></i></button>
-    <div class="row">
-        <div class="column left">
-            <div style="background-color: #FBEAEB; padding: 50px;">
-                <h2>Skills</h2>
-                <p>These are the skills I've learnt from my college and work, and I am always excited to
-                learn and add more skills to the list. Check out what I can do below:</p>
-                <hr>
-                <div class="row" style="display: flex; align-items: center; justify-content: center;">
-                    <div class="column" style="background-color: #D9D9D9; text-align: center; border: 1px solid black; margin: 4px; border-radius: 5%;">
-                        <div><i class="fa fa-laptop-code" style="font-size: xxx-large"></i></div>
-                        <p>C#, Java, Python</p>
+    <div class="row justify-content-center">
+        <div class="col-md-10 col-sm-12">
+            <div class="display-ph">
+                <img src="img/MyPic.png" alt="Avatar Logo" style="width:200px; margin-top: 20%;">
+                <div style="margin-top: 10%;">
+                    <h2>Karan Sharma's Portfolio 2.0</h2>
+                    <p>Hi! My name is Karan Sharma and
+                        welcome to my Web Portfolio academic assignment for INFO3130.
+                        I am an IT Innovation and Design student at Conestoga College.
+                        I love creating interactive, usable, accessible and cool websites,
+                        and I also love to code and these interests led me to become a Developer.</p>
+                </div>
+
+
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div style="background-color: #FBEAEB; padding: 50px;">
+                        <h2>Skills</h2>
+                        <p>These are the skills I've learnt from my college and work, and I am always excited to
+                            learn and add more skills to the list. Check out what I can do below:</p>
+                        <hr>
+                        <div class="row" style="display: flex; align-items: center; justify-content: center;">
+                            <div class="col-md-3" style="background-color: #D9D9D9; text-align: center; border: 1px solid black; margin: 4px; border-radius: 5%;">
+                                <div><i class="fa fa-laptop-code" style="font-size: xxx-large"></i></div>
+                                <p>C#, Java, Python</p>
+                            </div>
+                            <div class="col-md-3" style="background-color: #D9D9D9; text-align: center; border: 1px solid black; margin: 4px; border-radius: 5%;">
+                                <div><i class="fa-brands fa-react" style="font-size: xxx-large"></i></div>
+                                <p>React, Bootstrap, Angular</p>
+                            </div>
+                            <div class="col-md-3" style="background-color: #D9D9D9; text-align: center; border: 1px solid black; margin: 4px; border-radius: 5%;">
+                                <div><i class="fa fa-database" style="font-size: xxx-large"></i></div>
+                                <p>MySQL,MSSQL, MS Access, NoSQL</p>
+                            </div>
+                            <div class="col-md-3" style="background-color: #D9D9D9; text-align: center; border: 1px solid black; margin: 4px; border-radius: 5%;">
+                                <div><i class="fa-brands fa-git-alt" style="font-size: xxx-large"></i></div>
+                                <p>Git, Trello, Toybox, Adobe</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="column" style="background-color: #D9D9D9; text-align: center; border: 1px solid black; margin: 4px; border-radius: 5%;">
-                        <div><i class="fa-brands fa-react" style="font-size: xxx-large"></i></div>
-                        <p>React, Bootstrap, Angular</p>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h2 class="card-title mb-5">Experience</h2>
+                                    <p>My co-op had a lot to offer! From working with talented people and learning to putting my skills to work,
+                                        and more. Check out my wonderful journey below:</p>
+
+                                    <div class="hori-timeline" dir="ltr">
+                                        <ul class="list-inline events">
+                                            <li class="list-inline-item event-list">
+                                                <div class="px-4">
+                                                    <div class="event-date bg-soft-success text-success">May 2021</div>
+                                                    <h5 class="font-size-16">eLearning Courseware Developer-Conestoga College</h5>
+                                                    <p class="text-muted">Technologies used: Bootstrap 4, HTML5, CSS3, Javascript, Git, WinSCP</p>
+
+                                                </div>
+                                            </li>
+                                            <li class="list-inline-item event-list">
+                                                <div class="px-4">
+                                                    <div class="event-date bg-soft-danger text-danger">January 2022</div>
+                                                    <h5 class="font-size-16">Backend Developer-Royal Distributing</h5>
+                                                    <p class="text-muted">Technologies used: C#, SQL, FoxPro, Visual Studio, Asp.Net, Git, Microsoft 365 Business Central AL</p>
+
+                                                </div>
+                                            </li>
+                                            <li class="list-inline-item event-list">
+                                                <div class="px-4">
+                                                    <div class="event-date bg-soft-warning text-warning">May 2022</div>
+                                                    <h5 class="font-size-16">eLearning Courseware Developer-Conestoga College</h5>
+                                                    <p class="text-muted">Technologies used: Bootstrap 5, HTML5, CSS3, Javascript, Git, WinSCP</p>
+
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end card -->
+                        </div>
                     </div>
-                    <div class="column" style="background-color: #D9D9D9; text-align: center; border: 1px solid black; margin: 4px; border-radius: 5%;">
-                        <div><i class="fa fa-database" style="font-size: xxx-large"></i></div>
-                        <p>MySQL,MSSQL, MS Access, NoSQL</p>
+                    <!-- <div style="background-color: white; padding: 50px; position: sticky;">
+                        <h2>Experience</h2>
+                        <p>My co-op had a lot to offer! From working with talented people and learning to putting my skills to work,
+                         and more. Check out my wonderful journey below:</p>
+                        <hr>
+                        <ul class="timeline" style="top:135%; left: 50%;">
+                            <li data-year="2020" data-text="Harvey's Associate"></li>
+                            <li data-year="2021" data-text="eLearning Courseware Developer at Conestoga College"></li>
+                            <li data-year="2022" data-text="Backend Developer at Royal Distributing"></li>
+                            <li data-year="2022" data-text="eLearning Courseware Developer at Conestoga College"></li>
+                        </ul>
+                    </div> -->
+                </div>
+                <div class="col-md-4 col-sm-12 right">
+                    <img src="img/MyPic.png" alt="Avatar Logo" style="width:200px; margin-top: 20%;">
+                    <div style="margin-top: 10%;">
+                        <p>Karan Sharma</p>
+                        <p>IT Innovation and Design Program</p>
+                        <p>Conestoga College</p>
+                        <p>Hi! Welcome to my Web Portfolio academic assignment for INFO3130. I am an IT Innovation and Design student at Conestoga College. I love creating interactive, usable, accessible and cool websites, and I also love to code and these interests led me to become a Developer.</p>
                     </div>
-                    <div class="column" style="background-color: #D9D9D9; text-align: center; border: 1px solid black; margin: 4px; border-radius: 5%;">
-                        <div><i class="fa-brands fa-git-alt" style="font-size: xxx-large"></i></div>
-                        <p>Git, Trello, Toybox, Adobe</p>
-                    </div>
+
                 </div>
             </div>
-            <div style="background-color: white; padding: 50px; position: sticky;">
-                <h2>Experience</h2>
-                <p>My co-op had a lot to offer! From working with talented people and learning to putting my skills to work,
-                 and more. Check out my wonderful journey below:</p>
-                <hr>
-                <ul class="timeline" style="top:135%; left: 50%;">
-                    <li data-year="2020" data-text="Harvey's Associate"></li>
-                    <li data-year="2021" data-text="eLearning Courseware Developer at Conestoga College"></li>
-                    <li data-year="2022" data-text="Backend Developer at Royal Distributing"></li>
-                    <li data-year="2022" data-text="eLearning Courseware Developer at Conestoga College"></li>
-                </ul>
-            </div>
-        </div>
-        <div class="column right">
-            <img src="img/MyPic.png" alt="Avatar Logo" style="width:200px; margin-top: 20%;">
-            <div style="margin-top: 10%;">
-                <p>Karan Sharma</p>
-                <p>IT Innovation and Design Program</p>
-                <p>Conestoga College</p>
-                <p>Hi! Welcome to my Web Portfolio academic assignment for INFO3130. I am an IT Innovation and Design student at Conestoga College. I love creating interactive, usable, accessible and cool websites, and I also love to code and these interests led me to become a Developer.</p>
-            </div>
-
         </div>
     </div>
+
 </div>
 <footer>
-    <p>&copy; Copyright Karan Sharma; Portfolio 2.0.</p>
+    <p class="m-4">&copy; Copyright Karan Sharma; Portfolio 2.0.</p>
 </footer>
 
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
