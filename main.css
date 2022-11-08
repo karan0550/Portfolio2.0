@@ -8,7 +8,21 @@ body {
 }
 
 .skill-card:hover{
-    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.50);
+    width: 190px;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    transform: scale(1.1);
+}
+
+.nav-icons{
+    font-size: xxx-large; 
+    color: white;
+}
+.nav-icons:hover{
     width: 200px;
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
